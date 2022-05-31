@@ -1,4 +1,5 @@
-# YaTube - Social network for bloggers
+# `Logo` YaTube - Social network for bloggers
+
 
 
 <img alt="Python" src="https://img.shields.io/badge/Python-75%25-blue?style=flat&logo=python"> <img alt="HTML" src="https://img.shields.io/badge/HTML-20%25-red?style=flat&logo=html5"> <img alt="CSS" src="https://img.shields.io/badge/CSS-5%25-white?style=flat&logo=css3">

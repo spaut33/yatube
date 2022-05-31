@@ -11,14 +11,14 @@
 - [Contribution](#contribution)
 - [Test Instructions](#test-instructions)
 - [Licenses](#licenses)
-- [Contact Information](#contactin-formation)
+- [Contact Information](#contact-information)
 
 ## Description
 
 `YaTube` is the educational project completed during a python+ course at yandex.practicum.  
 
-In fact it is a fully functional social network for bloggers. Yatube's users have accounts,
-can post own posts and comment posts of other bloggers. User can add friends or be added as friend.
+In fact it is a fully functional social network for bloggers. Yatube's users have accounts, they
+can create posts and comment on other user's posts. Bloggers can add friends or be added as friends.
 
 It is written on <a href="https://github.com/django/django">Django</a> framework v. 2.2.
 

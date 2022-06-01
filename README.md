@@ -1,4 +1,4 @@
-# `Logo` YaTube - Социальная сеть для блогеров
+# <img src="https://github.com/spaut33/yatube_project/blob/main/yatube/static/img/logo.png"> YaTube - Социальная сеть для блогеров
 
 
 

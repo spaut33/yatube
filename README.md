@@ -1,4 +1,4 @@
-# <img style="width:30px;" src="https://github.com/spaut33/yatube_project/blob/main/yatube/static/img/logo.png"> YaTube - Социальная сеть для блогеров
+# <img style="width:35px;" src="https://github.com/spaut33/yatube_project/blob/main/yatube/static/img/logo.png"> YaTube - Социальная сеть для блогеров
 
 
 

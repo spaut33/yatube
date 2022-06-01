@@ -1,62 +1,63 @@
-# `Logo` YaTube - Social network for bloggers
+# `Logo` YaTube - Социальная сеть для блогеров
 
 
 
 <img alt="Python" src="https://img.shields.io/badge/Python-75%25-blue?style=flat&logo=python"> <img alt="HTML" src="https://img.shields.io/badge/HTML-20%25-red?style=flat&logo=html5"> <img alt="CSS" src="https://img.shields.io/badge/CSS-5%25-white?style=flat&logo=css3">
 
-## Table of Contents
+## Содержание
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contribution](#contribution)
-- [Test Instructions](#test-instructions)
-- [Licenses](#licenses)
-- [Contact Information](#contact-information)
+- [Описание](#Описание)
+- [Установка](#Установка)
+- [Использование](#спользование)
+- [Вклад](#Вклад)
+- [Инструкции для тестирования](#Инструкции-для-тестирования)
+- [Лицензия](#Лицензия)
+- [Контактная информация](#Контактная-информация)
 
-## Description
+## Описание
 
-`YaTube` is the educational project completed during a python+ course at yandex.practicum.  
+`YaTube` это образовательный проект созданный в рамках обучения на курсе Python Backend + @ Yandex.Practicum.  
 
-In fact it is a fully functional social network for bloggers. Yatube's users have accounts, they
-can create posts and comment on other user's posts. Bloggers can add friends or be added as friends.
+На самом деле это полностью функциональная социальная сеть для блогеров. 
+Пользователи Yatube могут создавать аккаунты, размещать посты, комментировать посты
+других пользователей. Блогеры могут добавлять в друзья или быть добавленными в друзья.
 
-It is written on <a href="https://github.com/django/django">Django</a> framework v. 2.2.
+Проект написан с использованием фреймворка <a href="https://github.com/django/django">Django</a> 2.2.
 
-## Installation
+## Установка
 
-###### 📣 Python installation (3.7.9+) is required prior to install this project!
+###### 📣 Перед установкой этого проекта, убедитесь что у вас установлен Python (3.7.9+)!
 
-- open terminal
-- clone the repo: `git clone git@github.com:spaut33/yatube_project.git`
-- cd into new directory (Must be in directory to work) EX. `cd yatube_project`
-- configure virtual environment `python3 -m venv venv`
-- activate it `source /venv/Scripts/activate`
-- install dependencies `pip install -r requirements.txt`
+- открыть терминал
+- клонировать репозиторий: `git clone git@github.com:spaut33/yatube_project.git`
+- сменить директорию (необходимо быть в рабочей директории репозитория) например: `cd yatube_project`
+- сконфигурировать виртуальное окружение `python3 -m venv venv`
+- активировать его `source /venv/Scripts/activate`
+- установить зависимости `pip install -r requirements.txt`
 
-## Usage
+## Использование
 
-Run the server using the following command
+Запустить сервер следующей командой
 
 ```python3 ./yatube/manage.py runserver```
 
-## Contribution
+## Вклад
 
-If you would like to contribute to this project reach out to me. Contact Information can be found below or by clicking on the 'Contact-Information' link provided in the Table of Contents.
+Если вы хотите сделать вклад в этот проект, свяжитесь со мной. Контактная информация есть ниже.
 
-## Test Instructions
+## Инструкции для тестирования
 
-This project covered by <a href="https://docs.djangoproject.com/en/2.2/topics/testing/overview/#running-tests">django tests</a> 
+Этот проект покрыт <a href="https://docs.djangoproject.com/en/2.2/topics/testing/overview/#running-tests">тестами Jango</a> 
 
-- change directory to `yatube`
-- run: `python manage.py test`
+- сменить директорию на `yatube`
+- запустить тест: `python manage.py test`
 
-## Licenses
+## Лицензия
 
 <a href="https://img.shields.io/badge/License-MIT-brightgreen?style=flat"><img alt="M.I.T. License use" src="https://img.shields.io/badge/License-MIT-brightgreen"></a>
 
-## Contact Information
+## Контактная информация
 
-Email Address: roman.petrakov@gmail.com
+Email: roman.petrakov@gmail.com
 
-[Roman Petrakov @ github](https://github.com/spaut33)
+[Роман Петраков @ github](https://github.com/spaut33)

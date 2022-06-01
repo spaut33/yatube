@@ -1,25 +1,26 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 
-from .models import Post
+from .models import Group, Post
 
 
 def index(request):
-    """View of main page"""
+    """Главная страница"""
+    # Получаем 10 постов с сортировкой по дате
+    # TODO: ordering наверное лучше вынести в Meta и убрать order_by тут и ниже
     posts = Post.objects.order_by('-pub_date')[:10]
-    template = 'posts/index.html'
     context = {
-        'title': 'Главная страница',
-        'text': 'Это главная страница проекта Yatube',
+        'title': 'Последние обновления на сайте',
         'posts': posts,
     }
-    return render(request, template, context)
+    return render(request, 'posts/index.html', context)
 
 
 def group_posts(request, slug=None):
     """Posts filtered by groups (slug)"""
-    template = 'posts/group_list.html'
+    group = get_object_or_404(Group, slug=slug)
+    posts = Post.objects.filter(group=group).order_by('-pub_date')[:10]
     context = {
-        'title': 'Здесь будет информация о группах проекта Yatube',
-        'text': 'Здесь будет информация о группах проекта Yatube',
+        'group': group,
+        'posts': posts,
     }
-    return render(request, template, context)
+    return render(request, 'posts/group_list.html', context)
